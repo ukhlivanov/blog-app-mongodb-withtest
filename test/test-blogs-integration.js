@@ -103,7 +103,6 @@ describe('blog posts API resource', function () {
 
     it('should return posts with right fields', function () {
       // Strategy: Get back all posts, and ensure they have expected keys
-
       let resPost;
       return chai.request(app)
         .get('/posts')
